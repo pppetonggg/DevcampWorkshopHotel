@@ -89,3 +89,37 @@ section .two{
     margin-right: auto;
     transform: translate(-25%,-45%);
 }
+
+main{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    margin-left: 30px;
+}
+
+main img{
+    height: 400px;
+}
+
+main .left{
+    display: grid;
+    grid-template-rows: 45% 17% 17% 17%;
+    /* width: 80%; */
+}
+
+.option{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.option-detail{
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+
+.option img{
+    height: 60px;
+}
+
+.right img{
+    margin-left: 15px;
+}
