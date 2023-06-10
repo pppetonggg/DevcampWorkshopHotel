@@ -98,11 +98,12 @@ main{
 
 main img{
     height: 400px;
+    margin-left: 15px;
 }
 
 main .left{
     display: grid;
-    grid-template-rows: 45% 17% 17% 17%;
+    grid-template-rows: 40% 15% 15% 15%;
     /* width: 80%; */
 }
 
@@ -111,15 +112,6 @@ main .left{
     grid-template-columns: 20% 80%;
 }
 
-.option-detail{
-    display: grid;
-    grid-template-rows: 30% 70%;
-}
-
 .option img{
     height: 60px;
-}
-
-.right img{
-    margin-left: 15px;
 }
