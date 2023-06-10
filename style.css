@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    /* no scrolling on x-axis */
+    overflow-x: hidden;
 }
 
 /* all ul under all navigation bar */
@@ -17,6 +19,7 @@ nav ul{
 nav ul li{
     /* this is more appropriate way to style list */
     list-style: none;
+    /* have space between li */
     margin: 10px 20px;
 }
 
@@ -26,10 +29,12 @@ nav li:first-child img{
 
 nav li:first-child{
     margin-right: auto;
+    margin-left: 100px;
 }
 
 nav li:last-child{
     margin-left: auto;
+    margin-right: 100px;
 }
 
 nav li button{
@@ -37,9 +42,50 @@ nav li button{
     padding: 10px 30px;
     border: 0px;
     border-radius: 15px;
-    color: white;
+    color: rgb(75, 72, 72);
     /* -webkit-text-stroke: 0.1px rgb(103, 103, 103); */
-    font-weight: bold;
+    font-weight: 5px;
     font-size: large;
-    text-shadow: 1px 1px;
+}
+
+/* End of nav bar */
+
+/* p{
+    font-size: 40px;
+    margin-left: 70px;
+    line-height: 1;
+}
+
+.box{
+    margin-top: 90px;
+}
+.box img{
+    margin-left: 400px;
+    width: 400px;
+    border-radius: 25px;
+} */
+
+section{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section p{
+    margin-left: 100px;
+    font-size: 45px;
+}
+
+section .one{
+    width: 500px;
+    border-radius: 25px;
+    margin-left: auto;
+    transform: translate(30%,-20%);
+}
+
+section .two{
+    width: 400px;
+    border-radius: 25px;
+    margin-right: auto;
+    transform: translate(-25%,-45%);
 }
