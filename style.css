@@ -77,14 +77,15 @@ section p{
 }
 
 section .one{
-    width: 500px;
+    width: 75vh;
     border-radius: 25px;
     margin-left: auto;
     transform: translate(30%,-20%);
+    margin-top: 30px;
 }
 
 section .two{
-    width: 400px;
+    width: 75vh;
     border-radius: 25px;
     margin-right: auto;
     transform: translate(-25%,-45%);
@@ -114,4 +115,30 @@ main .left{
 
 .option img{
     height: 60px;
+}
+
+.third-box h1{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.third-box-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.third-box-grid-item{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.third-box-grid-item p{
+    margin-bottom: 1em;
+}
+
+.third-box-item{
+    display: flex;
+    margin: auto;
+    align-items:center;
+    /* justify-content:center; */
 }
