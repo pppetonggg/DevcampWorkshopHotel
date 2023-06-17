@@ -170,3 +170,35 @@ main .left{
     margin-left: 50px;
     margin-right: 150px;
 }
+
+.fifth-box .item-list{
+    border-radius: 5%;
+    background-color: white;
+    transform: translate(5%, -70%);
+    width: 80%;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.fifth-box .up{
+    display: flex;
+}
+
+.fifth-box .left{
+    margin-right: auto;
+}
+
+.fifth-box img{
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.fifth-box .item{
+    padding: 30px;
+    margin: auto;
+}
+
+.fifth-box .all-item{
+    display: flex;
+    flex-wrap: nowrap;
+}
