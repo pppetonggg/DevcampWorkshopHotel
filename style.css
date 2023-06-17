@@ -136,9 +136,37 @@ main .left{
     margin-bottom: 1em;
 }
 
-.third-box-item{
+.third-box-item-list{
     display: flex;
     margin: auto;
     align-items:center;
-    /* justify-content:center; */
+}
+
+.forth-box-grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 50px;
+    
+}
+
+.forth-box{
+    margin: 50px;
+}
+
+.forth-box-grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.forth-box-grid p{
+    margin-left: 80;
+}
+
+.forth-box-grid img{
+    border-radius: 15px;
+}
+
+.forth-item-right{
+    margin-left: 50px;
+    margin-right: 150px;
 }
